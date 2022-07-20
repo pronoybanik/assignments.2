@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600;700&family=Edu+TAS+Beginner:wght@500&family=Gentium+Book+Plus:wght@700&family=Kaushan+Script&family=Oswald&family=PT+Serif:ital@1&family=Roboto+Slab:wght@300;400;500&display=swap');
+body{
+    font-family: 'Cormorant SC', serif;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto Slab', serif;
+background-color: rgba(135, 207, 235, 0.658);
+margin-left: 20%;
+
+}
+.new{
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 15px ;
+    
+}
+/*---------------
+    header part
+ --------------- */
+
+header{
+    display: flex;
+    justify-content: center;
+   
+}
+.great-player{
+    display: flex;
+   padding: 40px 25px;
+   background-color: black;
+   width: 40%;
+   height: 500%;
+   text-align: center;
+   margin-top: 15px;
+   border-radius: 10px;
+   
+}
+.player{
+    font-size: 130%;
+    color: aliceblue;
+    margin-left: 30px;
+}
+.button{
+    text-decoration: none;
+    background-color: rgb(209, 55, 27);
+    padding: 10px 15px;
+    font-size: 100%;
+    color: aliceblue;
+    border-radius: 6px;
+    
+}
+/*---------------
+    main part
+------------------ */
+.mach-detale{
+    background-color: black;
+    width: 15%;
+    height: 220px;
+    border-radius: 10px;
+
+}
+.buttons{
+    text-decoration: none;
+    background-color: aliceblue;
+     padding: 15px 20px; 
+     border: solid 1px;
+    border-radius: 6px;
+    font-size: bold;
+    color:black;
+
+}
+.list{
+    text-align: center;
+    padding-top: 40px;
+}
+.mach-info{
+    display: grid;
+    grid-row-gap: 20px;
+    box-sizing: 10px 20px 20px gray;
+    margin: 5px 6px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: rgba(74, 179, 221, 0.219);
+
+}
+.photo img{
+    width: 100%;
+    border-radius: 8px;
+}
+.all-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.container{
+   display: flex;
+   margin-top: 80px;
+   justify-content: center; 
+   margin-bottom: 20px;   
+}
+
+/* fooder */
+#goal-list{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 6px;
+    padding-top: 4px;
+}
+hr{
+    border:  1px solid  rgb(211, 77, 77);
+}
+.lists{
+    display: flex;
+    justify-content: center;
+   
+}
+.icon i{
+    margin-left: 20px;
+}
+.name-list{
+    margin-left: 30px;
+}
+/*-----------------
+   mobile device
+ ----------------*/
+ @media screen and (max-width:688px) {
+    .main{
+        width: 100%;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr) ;
+    }
+    
+ }
